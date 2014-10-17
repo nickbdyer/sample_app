@@ -3,3 +3,10 @@ def string_shuffle(s)
 end
 
 puts string_shuffle("foobar")
+
+
+class String
+	def shuffle
+		self.split('').shuffle.join
+	end
+end
